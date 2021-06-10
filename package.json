@@ -1,0 +1,33 @@
+{
+	"name": "devcamp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"color": "^3.1.2",
+		"colors": "^1.4.0",
+		"cookie-parser": "^1.4.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.1.7-alpha.4",
+		"geo-coder": "^1.0.2",
+		"jsonwebtoken": "^8.5.1",
+		"mapquest": "^0.2.0",
+		"mapquest-geocoder": "^1.1.0",
+		"mongoose": "^5.9.24",
+		"morgan": "^1.10.0",
+		"node-geocoder": "^3.27.0",
+		"nodemon": "^2.0.4",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"slugify": "^1.4.4"
+	}
+}
